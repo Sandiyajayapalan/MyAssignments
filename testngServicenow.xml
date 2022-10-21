@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite">
+ <test thread-count="5" name="Test" verbose="2">
+<parameter name="url" value="https://dev56910.service-now.com/"></parameter>
+<parameter name="user_name" value="admin"></parameter>
+<parameter name="user_password" value="Service@111"></parameter>
+ 
+<classes>
+      <class name="servicenowassignments.testng.dp.CreateNewCaller"/>
+    </classes>
+  </test> <!-- test -->
+</suite> <!-- suite -->
